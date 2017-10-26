@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="scss/stylesheet.scss">
+    <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scss/src/dropdownfunction.js"></script>
+    <title>brownpear</title>
+  </head>
+  <body>
+    <section class="navigation">
+        <div class="nav-container">
+          <div class="logo-container">
+            <img class="logo" src="scss/images/BP.png" alt="brownpear">
+          </div>
+          <div class="brand">
+            <a href="#!">brownpear</a>
+          </div>
+          <nav>
+            <div class="nav-mobile">
+              <a id="nav-toggle" href="#!"><span></span></a>
+            </div>
+              <ul class="nav-list">
+                <li><a href="#!">Home</a></li>
+                <li><a href="#!">Shop</a>
+                  <ul class="nav-dropdown">
+                    <li><a href="" class="enabled">Prints</a></li>
+                    <li><a href="" class="enabled">Sculpture</a></li>
+                  </ul>
+                </li>
+              </ul>
+          </nav>
+        </div>
+      </section>
+
+      <div id="content" class="container">
+          <header id="content-header">
+              <div id="price-container">
+                <span class="glyphicon glyphicon-tag"></span><span class="price">£40.00</span>
+              </div>
+              <img id="content-header-img" src="img/header-image.jpg" alt="Print">
+          </header>
+          <section id="content-details" class="row clearfix">
+              <article id="details-article" class="col-sm-8">
+                  <h1 id="article-title">Your Product <span class="font-weight-light">Product Name</span></h1>
+
+
+                  <p>Lorem ipsum dolor sit amet, in nam feugiat eleifend. Sea an possit offendit definiebas, usu cu aeque mediocritatem. Vis constituam suscipiantur ad, cum duis concludaturque no. Sea vocent consulatu at.</p>
+
+                  <p>Lorem ipsum dolor sit amet, pri id tractatos torquatos, eruditi alienum eam ad. Sint graeci mel te. Ex eius corrumpit.</p>
+                  <p><strong>Size</strong></p>
+                  <ul class="no-indent">
+                      <li>Lorem ipsum dolor sit.</li>
+                      <li>Lorem ipsum dolor sit amet, cum.</li>
+                      <li>Lorem ipsum dolor sit amet, quo ne etiam.</li>
+                  </ul>
+              </article>
+              <aside id="details-aside" class="col-sm-4">
+                  <a id="btn-buy" href="receipt.html" class="btn btn-success btn-lg btn-block"><span class="glyphicon glyphicon-ok"></span>Get it!</a>
+                  <ul id="details-infobox" class="list-group">
+                    <li class="list-group-item active clearfix">Info</li>
+                    <li class="list-group-item">Size</li>
+                    <li class="list-group-item">This Is Included</li>
+                  </ul>
+              </aside>
+          </section>
+      </div>
+  </body>
+</html>
